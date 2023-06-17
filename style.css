@@ -3,6 +3,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-image: url(img/green4-cloud.jpg); 
 }
+.class{
+    justify-content:center;
+    block-align:center;
+}
 #a-rapper {
     width: 980px;
     margin: 0 auto;
