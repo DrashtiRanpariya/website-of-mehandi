@@ -1,368 +1,274 @@
-body{
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-image: url(img/green4-cloud.jpg); 
-}
-.class{
-    justify-content:center;
-    block-align:center;
+body {
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #030e07;
+	text-align: center;
+	text-decoration: none;
+	background-repeat: no-repeat;
 }
 #a-rapper {
-    width: 980px;
-    margin: 0 auto;
-    background: #242d13;
+	width: 980px;
+	margin: 0 auto;
+	background: #242d13;
 }
-#main-navigation{
-    background: #b4cb88;
-    padding : 10px;
+#main-navigation {
+	background: #b4cb88;
+	padding: 10px;
+	
 }
-#main-navigation ul{
-    text-align: right;
-    list-style-type: none;
-    margin-right: 10px;
+#main-navigation ul {
+	text-align: right;
+	list-style-type: none;
+	margin-right: 10px;
 }
-#main-navigation li{
-    display: inline-block;
-    margin-left: 20px;
+#main-navigation li {
+	display: inline-block;
+	margin-left: 20px;
 }
-#main-navigation a{
-    color: #3f4f22;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding: 6px;
+#main-navigation a {
+	color: #3f4f22;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 6px;
 }
-#lead-banner h1{
-    margin: 0;
-    padding-top: 150px;
-    padding-bottom: 200px;
-    text-align: center;
-    font-size: 100px;
-    color: #242d13;
-    background-image: url(img/green3.jpg)  ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+#lead-banner h1 {
+	margin: 0;
+	padding: 150px 0px 200px 0px;
+	font-size: 100px;
+	color: #242d13;
+	background-image: url(img/green3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
 }
 #information {
-    margin: 0;
-    padding-top: 300px;
-    padding-bottom: 750px;
-    text-align: center;
-    background-color: #08170e;
-     background-image: url(img/logo1.jpg), url(img/green5-leaves.jpg);
-    background-repeat: no-repeat;
-    background-size: 300px,1000px;
-    background-position: 50% 70% , 50% 50%;
+	margin: 0;
+	padding: 300px 0px 750px 0px;
+	background-color: #08170e;
+	background-image: url(img/logo1.jpg), url(img/green5-leaves.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px, 1000px;
+	background-position: 50% 70%, 50% 50%;
 }
-#information h2.info{
-    font-size: 24px;
-    margin-top: 0;
+#information h2.info {
+	font-size: 24px;
+	margin-top: 0;
 }
-#information img.ratings{
-    width :20%
+#information img.ratings {
+	width: 20%;
 }
-#types{
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 150px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #242d13;
-    text-align: left;
-    background-color: #b4cb88;
-    background-image: url(img/bridal1.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 80% ,40%;
+.type {
+	
+	padding: 140px 150px 200px 130px;
+	font-size: 30px;
+	color: #242d13;
+	text-align: left;
+	background-color: #b4cb88;
+	background-image: url(img/bridal1.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	background-position: 80%, 40%;
 }
- #types a.bridal ,#types2 a.portrait ,#types4 a.festival{
-    text-decoration:solid;
-    display: block;
-    color: #242d13;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-decoration: none;
-    border: 4px solid #242d13 ;
-    border-radius: 6px;
-    width: 100px;
-    height: 20px;
-    padding-left: 30px;
-    padding-top: 10px;
+.type a.bridal,
+.type a.portrait,
+.type a.festival {
+	text-decoration: solid;
+	display: block;
+	color: #242d13;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	border: 4px solid #242d13 ;
+	border-radius: 6px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top: 10px;
+	
 }
-#types1 {
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 550px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #7e9e45;
-    text-align: left;
-    background-color: #242d13;
-    background-image: url(img/babyshower1.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 20% ,40%;
+.types {
+	padding: 140px 400px 200px 550px;
+	text-decoration: wavy;
+	font-size: 30px;
+	color: #7e9e45;
+	text-align: left;
+	background-color: #242d13;
+	background-image: url(img/babyshower1.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	background-position: 20%, 40%;
 }
- #types1 a.baby-shower ,#types3 a.engagement ,#shop a.cones{
-    text-decoration:solid;
-    display: block;
-    color: #7e9e45;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-decoration: none;
-    border: 4px solid #7e9e45 ;
-    border-radius: 6px;
-    width: 100px;
-    height: 20px;
-    padding-left: 30px;
-    padding-top: 10px;
+.types a.baby-shower,
+.types a.engagement,
+.types a.cones {
+	text-decoration: solid;
+	display: block;
+	color: #7e9e45;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	border: 4px solid #7e9e45;
+	border-radius: 6px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top: 10px;
 }
-#types2{
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 150px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #242d13;
-    text-align: left;
-    background-color: #b4cb88;
-    background-image: url(img/portrait2.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 80% ,40%;
-}
+#types2 {
+	
+	background-image: url(img/portrait2.jpg);
+	}
 #types3 {
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 550px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #7e9e45;
-    text-align: left;
-    background-color: #242d13;
-    background-image: url(img/engagement1.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 20% ,40%;
+	
+	background-image: url(img/engagement1.jpg);
 }
-#types4{
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 150px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #242d13;
-    text-align: left;
-    background-color: #b4cb88;
-    background-image: url(img/festivals.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 80% ,40%;
+#types4 {
+	background-image: url(img/festivals.jpg);
+	
 }
 #shop {
-    margin: 0%;
-    padding-top:  140px;
-    padding-left: 550px;
-    padding-bottom: 200px;
-    text-decoration: wavy;
-    font-size: 30px;
-    color: #7e9e45;
-    text-align: left;
-    background-color: #242d13;
-    background-image: url(img/cones1.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 20% ,40%;
+	background-image: url(img/cones1.jpg);
 }
-#last-navigation{
-    background: #b4cb88;
-    padding : 10px;
+#last-navigation {
+	background: #b4cb88;
+	padding: 10px;
 }
-#last-navigation ul{
-    text-align: center;
-    list-style-type: none;
+#last-navigation ul {
+	list-style-type: none;
 }
-#last-navigation li{
-    display: inline-block;
-    margin-left: 20px;
+#last-navigation li {
+	display: inline-block;
+	margin-left: 20px;
 }
-#last-navigation a{
-    color: #3f4f22;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding: 6px;
+#last-navigation a {
+	color: #3f4f22;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 6px;
 }
-#last-navigation a.last{
-    background: #7e9e45;
-    border-radius: 4px;
+#last-navigation a.last {
+	background: #7e9e45;
+	border-radius: 4px;
 }
 #abus {
-    width: 980px;
-    margin: 0 auto;
-    background: #08170e;
+	width: 980px;
+	margin: 0 auto;
+	background: #08170e;
 }
-#aboutus-navigation{
-    background-color: #08170e;  
-    padding : 10px;
-    text-align: center;
-    font-size: 30px;
-    color: #a18322;
+#aboutus-navigation {
+	background-color: #08170e;
+	padding: 10px;
+	font-size: 30px;
+	color: #a18322;
 }
 #informationabus {
-    margin: 0;
-    padding-top: 100px;
-    padding-bottom: 750px;
-    text-align: center;
-    background-color: #08170e;
-    background-image: url(img/logo1.jpg),url(img/green5-leaves.jpg);
-    background-repeat: no-repeat;
-    background-size: 400px, 1000px;
-    background-position: 50% 70% , 50% 50%;
-    color: #242d13;    
+
+	padding: 100px 0px 750px 0px;
+	background-color: #0d3f21;
+	background-image: url(img/logo1.jpg), url(img/green5-leaves.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px, 1000px;
+	background-position: 50% 70%, 50% 50%;
+	color: #242d13;
 }
-#informationabus img.ratings{
-    width :20%
+#informationabus img.ratings {
+	width: 20%;
 }
 #back {
-    margin: 20px;
-    margin-left: 30%;
-    padding: 30px;
-    text-align: center;
-    background-color: #08170e;
-    font-size: 26px;
-    color: #a18322;
-    display: block;    
-    border: 4px solid #a18322 ;
-    border-radius: 6px;
-    width: 300px;
-    height: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
+	margin: 20px 30% 20px 30%;
+	padding: 30px;
+	background-color: #08170e;
+	font-size: 26px;
+	color: #a18322;
+	display: block;
+	border: 4px solid #a18322;
+	border-radius: 6px;
+	width: 300px;
+	height: 20px;
+	padding-top: 15px;
 }
 #back a.back {
-    color: #a18322;
-    text-decoration: none;
-    text-transform: uppercase;
+	color: #a18322;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 #space {
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    color: #a18322;
-    font-size: 24px;
+	margin: 10px;
+	padding: 20px;
+	color: #a18322;
+	font-size: 24px;
 }
 #yoo {
-    width: 980px;
-    margin: 0 auto;
-    background: #08170e;
+	width: 980px;
+	margin: 0 auto;
+	background: #08170e;
 }
-#yoo-navigation{
-    background-color: #08170e;  
-    padding : 10px;
-    text-align: center;
-    font-size: 30px;
-    color: #a18322; 
+#yoo-navigation {
+	background-color: #08170e;
+	padding: 10px;
+	font-size: 30px;
+	color: #a18322;
 }
-#yoologo{
-    margin: 10px;
-    padding-top: 100px;
-    padding-bottom: 500px;
-    background-image: url(img/logo1.jpg);
-    background-position: 50% 50%;
-    background-size: 500px;
-    background-repeat: no-repeat;
+#yoologo {
+	margin: 10px;
+	padding-top: 100px;
+	padding-bottom: 500px;
+	background-image: url(img/logo1.jpg);
+	background-position: 50% 50%;
+	background-size: 500px;
+	background-repeat: no-repeat;
 }
-#pic{
-    margin-top: 80px;
-    margin: 190px;
-    padding-top: 900px;
-    background-image: url(img/pic1.jpeg), url(img/picback.jpg);
-    background-position: 50% 50% ,50% 50%;
-    background-size: 500px,600px;
-    background-repeat: no-repeat,no-repeat;
-    opacity: 100px;
+#pic {
+	margin-top: 80px;
+	margin: 190px;
+	padding-top: 900px;
+	background-image: url(img/pic1.jpeg), url(img/picback.jpg);
+	background-position: 50% 50%, 50% 50%;
+	background-size: 500px, 600px;
+	background-repeat: no-repeat, no-repeat;
+	opacity: 100px;
 }
 #contactus {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    padding: auto;
-    padding: 10px 100px 10px 100px;
-    background-image: url(img/green33.jpg)  ;
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    background-size: 900px;
-    height: auto;
-    color: #242d13;
-    text-align: center;
-    background-color: #08170e;
-    background-repeat: no-repeat;
-    background-size: 900px;
-    background-position:  50% 50%;
+	margin: 0px 100px 50px 100px;
+	padding: 10px 100px 10px 100px;
+	background-image: url(img/green33.jpg);
+	background-size: 900px;
+	height: auto;
+	color: #242d13;
+	background-color: #08170e;
 }
-#crpic{
-    display: table;
-    margin:   125px ;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    border: #3f4f22;
-    border-radius: 50px;
+#crpic {
+	display: table;
+	margin: 0px auto 0px auto;
+	border: #3f4f22;
+	border-radius: 50px;
 }
-#crtx{
-    margin-top: 0;
-    margin-bottom: 100px;
-    text-align: center;
-    color: #a18322;
-    font-size: 50px;
+#crtx {
+	margin-top: 0px 0px 100px auto;
+	color: #a18322;
+	font-size: 50px;
+}
+.crimg {
+	display: inline-block;
+	margin: 30px 125px;
+	padding: 370px 400px 0px 400px;
+	background-size: 300px, 300px;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0, 85% 50%;
 }
 #crpic1{
-    display: inline-block;
-    margin: 0px 125px;
-    padding-top: 0;
-    padding: 400px;
-    padding-bottom: 0px;
-    background-image: url(img/crpic2.jpg),url(img/crpic3.jpg);
-    background-size: 300px , 300px;
-    background-repeat: no-repeat , no-repeat;
-    background-position: 0, 85% 50%;
+	background-image: url(img/crpic2.jpg), url(img/crpic3.jpg);
+	
 }
-#crpic2{
-    display: inline-block;
-    margin: 0px 125px;
-    padding-top: 0;
-    padding: 400px;
-    padding-bottom: 0px;
-    background-image: url(img/crpic5.jpg),url(img/crpic6.jpg);
-    background-size: 300px , 300px;
-    background-repeat: no-repeat , no-repeat;
-    background-position: 0, 85% 50%;
+#crpic2 {
+	background-image: url(img/crpic5.jpg), url(img/crpic6.jpg);
 }
-#crpic3{
-    display: inline-block;
-    margin: 40px 125px;
-    padding-top: 10px;
-    padding: 400px;
-    padding-bottom: 0px;
-    background-image: url(img/crpic4.jpg),url(img/crpic7.jpg);
-    background-size: 300px , 300px;
-    background-repeat: no-repeat , no-repeat;
-    background-position: 0, 85% 50%;
+#crpic3 {
+	background-image: url(img/crpic4.jpg), url(img/crpic7.jpg);
 }
-#crpic4{
-    display: inline-block;
-    margin: 40px 125px;
-    padding-top: 10px;
-    padding: 400px;
-    padding-bottom: 0px;
-    background-image: url(img/function12.jpg);
-    background-size: 725px ;
-    background-repeat: no-repeat ;
+#crpic4 {
+	background-image: url(img/function12.jpg);
+	background-size: 725px;
 }
