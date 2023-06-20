@@ -239,6 +239,8 @@ body {
 	background-color: #08170e;
 }
 #crpic {
+	width: 980px;
+	margin: 0 auto;
 	display: table;
 	margin: 0px auto 0px auto;
 	border: #3f4f22;
